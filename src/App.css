@@ -1,12 +1,31 @@
 #container{
-  border: 5px solid;
+  border: 5px solid #996515;
   position: absolute;
   top: 10%;
-  width: 50%;
-  padding: 10px;
+  width: 70%;
+  padding: 50px;
+  background-color: #E6BE8A;
+  border-radius: 15%;
+  
 }
 
-#button{
-  border:2px solid;
+#buttons{
+  display: flex;
+  justify-content: space-around;
+  
+}
 
+
+#button{
+  border:2px solid #E97451;
+  background-color: #B76E79;
+  padding: 15px 30px;
+  font-size: 28px;
+  border-radius: 50% ;
+  
+}
+
+#count{
+  text-align: center;
+  font-size: 54px;
 }
